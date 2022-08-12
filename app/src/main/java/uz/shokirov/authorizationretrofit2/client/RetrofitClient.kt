@@ -22,7 +22,7 @@ object RetrofitClient {
     }.build()
 
 
-    private const val BASE_URL = "https://back.yuvish.uz/"
+    private const val BASE_URL = "your link"
     fun getRetrofit(): ApiService {
         Log.e(ContentValues.TAG, "getRetrofit: $token")
         val retrofit = Retrofit.Builder()
